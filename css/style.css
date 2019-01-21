@@ -1,0 +1,21 @@
+div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  max-height: 100%;
+}
+.foto-1 {
+ background-image: url('../images/1.jpg');   
+}
+.foto-2 {
+ background-image: url(../images/2.jpg);   
+}
+.foto-3 {
+ background-image: url("../images/3.jpg");   
+}
+.foto-4 {
+ background-image: url("../images/4.jpg");   
+}
+.foto-5 {
+ background-image: url("../images/5.jpg");   
+}

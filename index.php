@@ -1,14 +1,11 @@
-<?php
-$kelintadienis = date('d');
-?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <title><?php print 'as' . $kelintadienis . 'ir PHP' ?></title>
+        <title>PHP lydes ir <?php print date('d', strtotime('+1 day')) ?></title>
     </head>
     <body>
-        <h1>Tadas- HTML <?php print 'ir PHP' ?> asas jau nuo <?php print date('y') . ' metu' ?> </h1>
-        <p>Viskas prasidejo <?php print date("m") . ' Menesio ' . date("d") . ' diena' ?></p>
+        <h1>PHP su manim buvo ir <?php print date('H', strtotime('-1 hour')) . 'valanda' ?> </h1>
+        <p><?php print date('y', strtotime('+1 year')) . ' ne uz kalnu' ?></p>
     </body>
 </html>

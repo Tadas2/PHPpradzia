@@ -5,12 +5,15 @@
         <title>Komentarai</title>
     </head>
     <body>
+        <!--aiskinu savo diva-->
         <div>
             <h1>as pradedu</h1>
             <h2>o as papildau</h2>
         </div>
+        <!--iskomentinu diva
         <div>
             <p>o as esu alus</p>
         </div>
+        -->
     </body>
 </html>

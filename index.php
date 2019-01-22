@@ -1,19 +1,19 @@
 <?php
-$pirm_pask = rand(1, 100);
-$antr_pask = rand(101, 200);
-$trec_pask = rand(201, 300);
+$sunny = rand(0, 1);
 ?>
 <!DOCTYPE html>
-<head>
-    <title>babushka</title>      
-</head>
-<body>
-    <div>
-        <h1>Skolos skaiciuokle</h1>
-        <p>jei paemei <?php print $pirm_pask ?>jievru<br>
-           su dviem kabanciais grazinsi <?php print $trec_pask ?><br>
-           su vienu kabanciu grazinsi <?php $antr_pask ?>
-        </p>
-    </div>
-</body>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">
+        <title>babushka</title>      
+    </head>
+    <body>
+        <?php
+        if ($sunny) {
+            print '<img src="images/1.jpg"> afigenas oras';
+        } else {
+            print '<img src="images/2.jpg"> sudinas oras';
+        }
+        ?>
+    </body>
 </html>
